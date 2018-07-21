@@ -1,4 +1,4 @@
-const index = require('../src');
+// const index = require('../src');
 
 describe('', () => {
   test('', () => {
