@@ -1,0 +1,28 @@
+{
+  "name": "concat-my-css",
+  "version": "1.0.0",
+  "bin": {
+    "concatCss": "./index.js"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/robertlandreaux/concat-my-css",
+  "author": "Robert C. Landreaux",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "all": "yarn prettier && yarn lint && yarn test",
+    "lint": "eslint . --fix",
+    "prettier": "prettier --write --single-quote './src/index.js'",
+    "test": "yarn run lint && jest"
+  },
+  "dependencies": {
+    "chokidar": "2.0.4",
+    "clean-css": "4.1.11",
+    "dotenv": "6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "5.1.0",
+    "eslint-config-landreaux": "1.0.4",
+    "prettier": "1.13.7"
+  }
+}
