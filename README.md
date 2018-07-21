@@ -1,7 +1,6 @@
 # concat-my-css
 
-[![Build Status](https://travis-ci.org/robertlandrea
-ux/concat-my-css.svg?branch=master)](https://travis-ci.org/robertlandreaux/concat-my-css.svg?branch=master)
+[![Build Status](https://travis-ci.org/robertlandreaux/concat-my-css.svg?branch=master)](https://travis-ci.org/robertlandreaux/concat-my-css.svg?branch=master)
 
 It concatenates and minifies your css.
 
