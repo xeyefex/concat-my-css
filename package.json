@@ -13,7 +13,7 @@
     "all": "yarn prettier && yarn lint && yarn test",
     "lint": "eslint . --fix",
     "prettier": "prettier --write --single-quote './src/index.js'",
-    "test": "yarn run lint && jest"
+    "test": "jest"
   },
   "dependencies": {
     "chokidar": "2.0.4",
@@ -22,7 +22,8 @@
   },
   "devDependencies": {
     "eslint": "5.1.0",
-    "eslint-config-landreaux": "1.0.4",
+    "eslint-config-landreaux": "1.0.6",
+    "jest": "23.4.1",
     "prettier": "1.13.7"
   }
 }
